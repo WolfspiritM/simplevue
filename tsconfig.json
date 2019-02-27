@@ -1,0 +1,28 @@
+{
+    "compileOnSave": false,
+    "exclude": [ "node_modules" ],
+    "include": [
+      "./scripts/**/*.ts",
+      "./scripts/**/*.vue"
+    ],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "noImplicitAny": true,
+        "noEmitOnError": true,
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "strict": true,
+        "importHelpers": true,
+        "target": "es5",
+        "module": "esnext",
+        "outDir": "dist",
+        "lib": [
+            "es2015",
+            "dom",
+            "dom.iterable",
+            "scripthost"
+        ]
+    }
+}

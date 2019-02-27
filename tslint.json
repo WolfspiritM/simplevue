@@ -1,0 +1,13 @@
+{
+    "linterOptions": {
+        "exclude": [
+          "node_modules/**"
+        ]
+    },
+    "extends": "tslint:latest",
+    "defaultSeverity": "error",
+    "rules": {
+        "no-submodule-imports": false,
+        "prefer-conditional-expression": false
+    }
+}
